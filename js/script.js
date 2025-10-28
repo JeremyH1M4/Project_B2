@@ -1,5 +1,6 @@
 
 'use strict';
+<<<<<<< HEAD:js/script.js
 //testing timer function
 const N1 = prompt("Enter your name"); 
 let timeLeft = 10; {
@@ -14,9 +15,10 @@ let timeLeft = 10; {
     }
     
 };
+=======
+>>>>>>> origin/Isaacs-Branch:script.js
 
 document.write("<p>Welcome to our start page " + N1 + "! Please click start when you're ready.</p>");
 
-console.log("JavaScript is linked properly");
-
+console.log("JavaScript is linked properly")
 
