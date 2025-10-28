@@ -1,7 +1,10 @@
 
+'use strict';
 //testing timer function
+const N1 = prompt("Enter your name"); 
 let timeLeft = 10; {
-    N1 = prompt("Enter your name");
+    
+
     if (timeLeft > 0 || N1 ) {
         alert("Hello" + " " + N1);
     }
@@ -10,10 +13,10 @@ let timeLeft = 10; {
         alert("Time ran out")
     }
     
-}
-'use strict';
+};
+
+document.write("<p>Welcome to our start page " + N1 + "! Please click start when you're ready.</p>");
 
 console.log("JavaScript is linked properly");
 
-alert("make sure we do the team agreement");
 
