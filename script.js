@@ -1,19 +1,23 @@
 
-//testing timer function
-let timeLeft = 10; {
-    N1 = prompt("Enter your name");
-    if (timeLeft > 0 || N1 ) {
-        alert("Hello" + " " + N1);
-    }
 
-    else (timeLeft <= 0); {
-        alert("Time ran out")
-    }
-    
-}
 'use strict';
+// Choice test
 
-console.log("JavaScript is linked properly");
+let N1A1 = prompt("left, middle, or right?"); {
 
-alert("make sure we do the team agreement");
+if (N1A1 = "left") {
+    alert("Left Ending")
+}
 
+else if (N1A1 = "middle") {
+    alert("Middle Ending")
+}
+
+else if (N1A1 = "right") {
+    alert("Right Ending")
+}
+
+else {
+    alert("Invalid Choice")
+}
+}
