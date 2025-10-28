@@ -1,0 +1,43 @@
+body{
+   background-color: lightcoral;
+}
+h1{
+   color: gold;
+   text-align: center;
+  font-size: 100px;
+  font-style: oblique;
+  text-shadow: 2px 2px black;
+  text-transform: uppercase;
+
+}
+p{
+  color: grey;
+   text-align: center;
+  font-size: 60px;
+  font-style: oblique;
+  text-shadow: 2px 2px rgb(67, 13, 13);
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  
+}
+
+button{
+  background-color: gold;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 18px 32px;
+  margin-left: 625px;
+  margin-top: 50px;
+
+ font-style: oblique;
+
+}
+
+nav{
+  font-size: 40px;
+  margin-right: 40px;
+}
