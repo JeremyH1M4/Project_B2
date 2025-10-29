@@ -1,8 +1,8 @@
 body{
-   background-color: lightcoral;
+   background-color: darkolivegreen;
 }
 h1{
-   color: gold;
+   color: tan;
    text-align: center;
   font-size: 100px;
   font-style: oblique;
@@ -11,7 +11,7 @@ h1{
 
 }
 p{
-  color: grey;
+  color: black;
    text-align: center;
   font-size: 60px;
   font-style: oblique;
@@ -24,7 +24,7 @@ p{
 }
 
 button{
-  background-color: gold;
+  background-color: grey;
   color: black;
   font-size: 12px;
   font-weight: bold;
