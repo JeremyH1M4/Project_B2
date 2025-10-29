@@ -39,5 +39,7 @@ button{
 
 nav{
   font-size: 40px;
-  margin-right: 40px;
+  text-align: center;
+  margin-right: 650px;
+  display: inline;
 }
