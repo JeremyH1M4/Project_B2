@@ -1,22 +1,6 @@
 
 'use strict';
-<<<<<<< HEAD:js/script.js
-//testing timer function
-const N1 = prompt("Enter your name"); 
-let timeLeft = 10; {
-    
-
-    if (timeLeft > 0 || N1 ) {
-        alert("Hello" + " " + N1);
-    }
-
-    else (timeLeft <= 0); {
-        alert("Time ran out")
-    }
-    
-};
-=======
->>>>>>> origin/Isaacs-Branch:script.js
+let N1 = prompt("Please enter your name:");
 
 document.write("<p>Welcome to our start page " + N1 + "! Please click start when you're ready.</p>");
 
