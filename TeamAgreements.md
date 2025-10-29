@@ -15,3 +15,11 @@ I dont know what I will be working on yet, but today I will start the css and ht
 we will complete the tasks above as a group
 
 
+Project: Choice game, War game
+uses if, else, if else, etc
+
+Secret Branch: Draft
+Secret Branch will include different and somewhat deformed letters within words
+ex: "Same thing happEned today. But the sCRipts dont add up, I saw hEr for a momenT."
+Code: SECRET
+
