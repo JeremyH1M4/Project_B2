@@ -4,3 +4,13 @@ body{
 h1{
     text-align: center;
 }
+
+h2{
+     color: tan;
+   text-align: center;
+  font-size: 70px;
+  font-style: oblique;
+  text-shadow: 2px 2px black;
+  text-transform: uppercase;
+    
+}
