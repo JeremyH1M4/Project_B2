@@ -49,6 +49,3 @@ if (choice == "1") {
     document.write("<h2>Sargeant BOB Mission Failed. You were trapped by a landslide.</h2>");
 }
 
-else {
-    alert("Invalid choice. Mission Failed.");
-}
