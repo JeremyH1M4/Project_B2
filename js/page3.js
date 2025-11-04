@@ -11,20 +11,6 @@ if (choice == "1") {
     let escape = prompt("Do you (1) sneak back the way you came or (2) steal enemy Truck to escape quickly or (3) GET REVENGE? TYPE 1, 2, or 3.");
     
     if (escape == "1") {
-       alert("you try sneaking back, but a tribe member spots you.");
-       alert("They want to help you!");
-       let help = prompt("Do you (1) ACCEPT their help or (2) DECLINE and try to escape on your own? TYPE 1 or 2.");
-
-       if (help == "1") {
-           alert("The tribe members guide you safely out of the camp and back to your base.");
-           document.write("<h2>Sargeant BOB Mission Successful. You rescued the pilot with the help of the tribe!</h2>");
-       }
-
-       else if (help == "2") {
-           alert("You try to escape on your own, but are quickly surrounded by enemy soldiers.");
-           alert("The enemy captures you and the pilot.");
-           document.write("<h2>Sargeant BOB Mission Failed. You were captured by the enemy.</h2>");
-       }
         alert("As you leave the tent and start sneaking out, you hear enemy scouts moving toward you.");
        let sneak = prompt("Do you (1) choose to hide until they pass, or (2) engage the scouts with your suppressed M4's? Type (1) or (2)")
     
