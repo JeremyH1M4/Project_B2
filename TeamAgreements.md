@@ -7,12 +7,7 @@
                g. How will you complete the tasks listed above. 
 
                This is Tanners section:
-I will work on this prject in second period, and at home if it is needed.
-we have not decided what we are doing yet.
-It will function as a game
-We will use java script, html, and css to make number 4 happen
-I dont know what I will be working on yet, but today I will start the css and html
-we will complete the tasks above as a group
+I work on our choice game in second period and this project is a game where you determine your fate! We will use mostly javascript to make the game, but we will also use html and css a little but. I feel like Im more in charge of the base line of this game, setting up the javascript for my teamates to fill out the rest and give the game more charcter. I will just do my work and try and communinicate the best I can.
 
 
 Project: Choice game, War game
