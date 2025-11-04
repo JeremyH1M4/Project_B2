@@ -25,6 +25,35 @@ if (choice == "1") {
            alert("The enemy captures you and the pilot.");
            document.write("<h2>Sargeant BOB Mission Failed. You were captured by the enemy.</h2>");
        }
+        alert("As you leave the tent and start sneaking out, you hear enemy scouts moving toward you.");
+       let sneak = prompt("Do you (1) choose to hide until they pass, or (2) engage the scouts with your suppressed M4's? Type (1) or (2)")
+    
+         if (sneak == "1") {
+            alert("You and your team decide to hide and wait til the enemy scouts pass.")
+            alert("They pass and you are able to escape the camp with the pilot.")
+            document.write("<h2>Congragulations, you escaped with the pilot and made it safely back to base</h2>")
+    }
+        else if (sneak == "2"){
+            alert("You and your team decide to engage the scouts...")
+            alert("As the scouts come around the corner, you take them out.")
+            alert("Unfotunately, the rest of the camp hears the commotion, and starts cautiously coming to your position.")
+            let fight = prompt("Do you (1) engage the other enemies, or (2) atempt to quickly sneak out before the enemies get to you? Type (1) or (2)")
+       
+            if (fight == "1"){
+                alert("You decide to engage the enemy...")
+                alert("Unfortunately, the enemy outnumbers you, and you are captured,")
+                document.write("<h2>You got captured by the enemy and did not succeed in the mission.</h2>")
+            }
+        
+            else if (fight == "2"){
+                alert("You try to sneak out of the camp before the rest of the enemies get to you...")
+                alert("Your quick thinking and the cooperation of your team works and you are able to escape with the pilot.")
+                document.write("<h2>Congragulations, your mission was accomplished</h2>")
+            }
+        }
+
+
+
     }
     
     else if (escape == "2") {
@@ -55,7 +84,7 @@ if (choice == "1") {
     alert("Your team launches a surprise attack on the enemy camp...");
     alert("After a fierce battle, you manage to rescue the pilot.");
     let retreat = prompt("Do you (1) retreat through the forest or (2) head to the river for a boat escape? TYPE 1 or 2.");
-    
+ }
     if (retreat == "1") {
         alert("You retreat through the forest, but the enemy is in hot pursuit.");
         alert("you try sneaking back, but a tribe member spots you.");
@@ -90,7 +119,6 @@ if (choice == "1") {
         }
     }
 
-}
 
 //path 3 to call in airstrike
  if (choice == "3") {
