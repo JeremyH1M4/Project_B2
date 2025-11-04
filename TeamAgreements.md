@@ -18,3 +18,4 @@ Secret Branch will include different and somewhat deformed letters within words
 ex: "Same thing happEned today. But the sCRipts dont add up, I saw hEr for a momenT."
 Code: SECRET
 
+Isaac: I work on this project in fifth period, and our game is a miltary choice game where you have to rescue a capture pilot. it mainly uses javascript but also a little bit of html and css to make the base pages. I worked on the css and also a bit of the JavaScript. the way we will complete this is by doing our work then communicating through the pull requests.
