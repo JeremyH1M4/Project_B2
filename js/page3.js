@@ -70,7 +70,7 @@ if (choice == "1") {
     alert("Your team launches a surprise attack on the enemy camp...");
     alert("After a fierce battle, you manage to rescue the pilot.");
     let retreat = prompt("Do you (1) retreat through the forest or (2) head to the river for a boat escape? TYPE 1 or 2.");
- }
+ 
     if (retreat == "1") {
         alert("You retreat through the forest, but the enemy is in hot pursuit.");
         alert("you try sneaking back, but a tribe member spots you.");
@@ -104,7 +104,7 @@ if (choice == "1") {
             document.write("<h2>Sargeant BOB Mission Accomplished. You escaped by swimming across the river.</h2>");
         }
     }
-
+ }
 
 //path 3 to call in airstrike
  if (choice == "3") {
