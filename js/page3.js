@@ -5,7 +5,7 @@ alert("Your Objectve is to rescue a captured pilot from enemy territory");
 let choice = prompt("Your team has reached the edge of an enemy camp. Do you (1) sneak in quietly or (2) attack them in suprise or (3) call in an airstrike? TYPE 1, 2, 3");
 
 //path 1 to sneak in quietly
-if (choice === "1") {
+if (choice == "1") {
     alert("Your team sneaks through the camp undetected...");
     alert("you find the pilot tied up in a tent. you quietly untie him and prepare to leave.");
     let escape = prompt("Do you (1) sneak back the way you came or (2) steal enemy Truck to escape quickly or (3) GET REVENGE? TYPE 1, 2, or 3.");
@@ -66,17 +66,30 @@ if (choice === "1") {
 }
     
 //path 2 to attack in surprise
- else if (choice === "2") {
+ if (choice == "2") {
     alert("Your team launches a surprise attack on the enemy camp...");
     alert("After a fierce battle, you manage to rescue the pilot.");
     let retreat = prompt("Do you (1) retreat through the forest or (2) head to the river for a boat escape? TYPE 1 or 2.");
-    
+ 
     if (retreat == "1") {
-        alert("You and your team successfully retreat through the forest and escape with the pilot. Mission Accomplished!");
-        document.write("<h2>Sargeant BOB Mission Successful. You rescued the pilot!</h2>");
+        alert("You retreat through the forest, but the enemy is in hot pursuit.");
+        alert("you try sneaking back, but a tribe member spots you.");
+       alert("They want to help you!");
+       let help = prompt("Do you (1) ACCEPT their help or (2) DECLINE and try to escape on your own? TYPE 1 or 2.");
+
+       if (help == "1") {
+           alert("The tribe members guide you safely out of the camp and back to your base.");
+           document.write("<h2>Sargeant BOB Mission Successful. You rescued the pilot with the help of the tribe!</h2>");
+       }
+
+       else if (help == "2") {
+           alert("You try to escape on your own, but are quickly surrounded by enemy soldiers.");
+           alert("The enemy captures you and the pilot.");
+           document.write("<h2>Sargeant BOB Mission Failed. You were captured by the enemy.</h2>");
+       }
     }
     
-    else if (retreat == "2") {
+     if (retreat == "2") {
         alert("At the river, you find no boats. The enemy catches up to you.");
         let swim = prompt("Do you (1) SURRENDER or (2) or try and swim TYPE 1 or 2.");
 
@@ -94,7 +107,7 @@ if (choice === "1") {
  }
 
 //path 3 to call in airstrike
- else if (choice === "3") {
+ if (choice == "3") {
     alert("You call in an airstrike on the enemy camp...");
     alert("The airstrike is successful, but the explosion causes a landslide.");
    let outcome = prompt("Do you (1) search the rubble for the pilot or (2) retreat to avoid further danger? TYPE 1 or 2.");
@@ -650,82 +663,6 @@ if (choice === "1") {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- if (choice === "") {
+else if (choice === "") {
     window.location.href = "mystery1.html";
- }
+}

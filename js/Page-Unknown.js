@@ -1,6 +1,7 @@
 let button = document.getElementById("start");
      if (button) 
          button.addEventListener("click", function() {
+             alert("'.'")
              alert("'. .'");
              alert("'. . .'");
              alert("'What brings you here?'");
