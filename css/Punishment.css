@@ -1,0 +1,21 @@
+img {
+  display: block;
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    margin:auto;
+}
+
+body {
+    background-color:black;
+}
+
+.rules {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+h2 {
+    color:red;
+}

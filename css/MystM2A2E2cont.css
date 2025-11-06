@@ -1,0 +1,17 @@
+img {
+  display: block;
+    border: 2px solid greenyellow;
+    width: 1200px;
+    height: 800px;
+    margin:auto;
+}
+
+.D {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap: 20px;
+}
+Body {
+  background-color:black;
+}

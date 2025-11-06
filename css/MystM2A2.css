@@ -1,0 +1,25 @@
+#start3-1{
+  font-style: oblique;
+}
+#start3-2{
+  font-style: oblique;
+}
+img {
+  display: block;
+    border: 2px solid greenyellow;
+    width: 600px;
+    height: 800px;
+    margin:auto;
+}
+
+.A {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%; /* Ensures it stretches full width for horizontal centering */
+  margin-top: 20px; /* Added for spacing if needed */
+}
+body {
+background-color:grey;
+}

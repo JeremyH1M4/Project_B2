@@ -1,0 +1,46 @@
+
+.M2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.M1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+body {
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+}
+img {
+  display: block;
+    border: 2px solid greenyellow;
+    width: 600px;
+    height: 800px;
+    margin:auto;
+}
+
+#start1-1{
+  font-style: oblique;
+}
+
+#start1-2{
+  font-style: oblique;
+}
+
+#start1-3{
+  font-style: oblique;
+}
+
+#start1-4{
+ font-style: oblique;
+}
