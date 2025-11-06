@@ -5,7 +5,7 @@ alert("Your Objectve is to rescue a captured pilot from enemy territory");
 let choice = prompt("Your team has reached the edge of an enemy camp. Do you (1) sneak in quietly or (2) attack them in suprise or (3) call in an airstrike? TYPE 1, 2, 3");
 
 //path 1 to sneak in quietly
-if (choice === "1") {
+if (choice == "1") {
     alert("Your team sneaks through the camp undetected...");
     alert("you find the pilot tied up in a tent. you quietly untie him and prepare to leave.");
     let escape = prompt("Do you (1) sneak back the way you came or (2) steal enemy Truck to escape quickly or (3) GET REVENGE? TYPE 1, 2, or 3.");
@@ -66,7 +66,7 @@ if (choice === "1") {
 }
     
 //path 2 to attack in surprise
- else if (choice === "2") {
+ if (choice == "2") {
     alert("Your team launches a surprise attack on the enemy camp...");
     alert("After a fierce battle, you manage to rescue the pilot.");
     let retreat = prompt("Do you (1) retreat through the forest or (2) head to the river for a boat escape? TYPE 1 or 2.");
@@ -107,7 +107,7 @@ if (choice === "1") {
  }
 
 //path 3 to call in airstrike
- else if (choice === "3") {
+ if (choice == "3") {
     alert("You call in an airstrike on the enemy camp...");
     alert("The airstrike is successful, but the explosion causes a landslide.");
    let outcome = prompt("Do you (1) search the rubble for the pilot or (2) retreat to avoid further danger? TYPE 1 or 2.");
@@ -663,82 +663,6 @@ if (choice === "1") {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- if (choice === "") {
+else if (choice === "") {
     window.location.href = "mystery1.html";
- }
+}
